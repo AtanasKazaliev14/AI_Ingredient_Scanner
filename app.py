@@ -468,12 +468,12 @@ def calculate_score(found_items, harmful_items):
 def get_health_label(score):
 
     if score == 0:
-        return "🟢 Healthy"
+        return "🟢 Healthy/Здравословен"
 
     elif score <= 4:
-        return "🟡 Moderate"
+        return "🟡 Moderate/Умерен"
 
-    return "🔴 Unhealthy"
+    return "🔴 Unhealthy/Нездравословен"
 
 # ==========================================
 # RISK COLOR
